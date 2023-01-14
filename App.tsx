@@ -111,7 +111,7 @@ const App = () => {
   const RenderLocation = () => {
     // if (toiletMarkers.length === 0) {
     //   return <Text> no data </Text>;
-    // }
+    // }dasdas
     console.log('data 115', toiletMarkers);
     return (
       <>
@@ -123,7 +123,7 @@ const App = () => {
                 latitude: item.latitude,
                 longitude: item.longitude
               }}
-              title=''
+              title={item.title}
             ></Marker>
           );
         })}
